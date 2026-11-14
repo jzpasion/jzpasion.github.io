@@ -1,0 +1,772 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Konbini Rush Game Rules</title>
+    <style>
+      :root {
+        --ink: #2f2a4d;
+        --soft: #5c5686;
+        --rose: #ff6f91;
+        --paper: #fffaf5;
+        --rule: #e4dfee;
+      }
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font:
+          16px/1.6 system-ui,
+          -apple-system,
+          "Segoe UI",
+          "Hiragino Sans",
+          "Noto Sans JP",
+          sans-serif;
+      }
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 40px 22px 64px;
+      }
+      h1 {
+        font-size: 28px;
+        line-height: 1.2;
+        margin: 0 0 4px;
+      }
+      h2 {
+        font-size: 19px;
+        margin: 34px 0 6px;
+      }
+      h3 {
+        font-size: 16px;
+        margin: 20px 0 4px;
+      }
+      .date {
+        color: var(--soft);
+        margin: 0 0 24px;
+      }
+      a {
+        color: var(--rose);
+      }
+      hr {
+        border: 0;
+        border-top: 1px dashed #c9c3dc;
+        margin: 48px 0;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      li {
+        margin: 4px 0;
+      }
+      .wrap {
+        overflow-x: auto;
+        margin: 10px 0 14px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 15px;
+      }
+      th,
+      td {
+        text-align: left;
+        padding: 6px 10px 6px 0;
+        border-bottom: 1px solid var(--rule);
+        vertical-align: top;
+      }
+      th {
+        color: var(--soft);
+        font-weight: 600;
+      }
+      td.n,
+      th.n {
+        text-align: right;
+        white-space: nowrap;
+      }
+      nav ol {
+        columns: 2;
+        column-gap: 28px;
+        padding-left: 22px;
+        margin: 8px 0 0;
+      }
+      nav li {
+        margin: 2px 0;
+        break-inside: avoid;
+      }
+      .small {
+        color: var(--soft);
+        font-size: 14px;
+      }
+      @media (max-width: 520px) {
+        nav ol {
+          columns: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Konbini Rush - Game Rules</h1>
+      <p class="date">Effective November 13, 2026 ·<a href="#ja" lang="ja">日本語</a></p>
+
+      <p>
+        Konbini Rush (“the app”) is a game made by LeTomo. This page explains
+        how it plays: the days and stores, what stars and coins do, what each
+        item does, what can be bought and what it gives, and the exact chances
+        of every random reward. The numbers are those of the current version.
+        When an update changes them, this page is updated with a new date.
+      </p>
+
+      <nav aria-label="Contents">
+        <ol>
+          <li><a href="#about">The game</a></li>
+          <li><a href="#days">Days and stores</a></li>
+          <li><a href="#box">The box</a></li>
+          <li><a href="#stars">Stars</a></li>
+          <li><a href="#coins">Coins</a></li>
+          <li><a href="#items">Items</a></li>
+          <li><a href="#shifts">Shifts</a></li>
+          <li><a href="#shop">The shop</a></li>
+          <li><a href="#truck">The truck</a></li>
+          <li><a href="#odds">Chances of random rewards</a></li>
+          <li><a href="#purchases">Buying with real money</a></li>
+          <li><a href="#ads">Ads</a></li>
+          <li><a href="#notes">Good to know</a></li>
+        </ol>
+      </nav>
+
+      <h2 id="about">1. The game</h2>
+      <p>
+        You run a convenience store, a konbini. Each day you open a delivery
+        box and sell the goods in it. Clearing a day builds one new thing in
+        your store. When a store is finished, the next one opens, and more
+        stores open as you play.
+      </p>
+
+      <h2 id="days">2. Days and stores</h2>
+      <p>
+        Your first store is the Local store, days 1 to 12. When it is finished,
+        the next store opens, and more stores open as you play. A store that
+        is not open yet is locked, and the game shows the day it opens.
+      </p>
+      <ul>
+        <li>
+          Days open one at a time. Clearing the newest day opens the next one
+          and builds that day's piece of the store.
+        </li>
+        <li>
+          Each phone gets its own box for each day, the same one every time
+          that phone plays the day. The kinds of goods and the drop direction
+          are the same for every player.
+        </li>
+        <li>
+          Cleared days can be played again from the wall calendar in the store,
+          to earn more stars.
+        </li>
+      </ul>
+
+      <h2 id="box">3. The box</h2>
+      <ul>
+        <li>
+          The first store sells three kinds of goods: Green tea, Cup noodles
+          and Milk. More kinds join in later stores.
+        </li>
+        <li>
+          Tap a group of two or more goods of the same kind that touch side by
+          side or one above the other (corners do not count). The whole group
+          sells. A good on its own cannot be sold by tapping.
+        </li>
+        <li>
+          Goods slide into the space left, and more goods wait behind each line
+          to come in. In each line, 1 good waits on days 1 to 6 and 2 on days
+          7 to 12, and more wait in later stores.
+        </li>
+        <li>
+          Goods usually drop down. From day 6, some days drop up, left or right
+          instead. The day's card shows the direction before the box is opened.
+        </li>
+        <li>
+          Every box is packed so that it can be emptied. Days 1 to 6 are packed
+          to be easy, and they help when you get stuck: the box is shaken for
+          free (on day 1 as often as it takes, on days 2 to 6 up to twice), and
+          then the last goods sell themselves (on day 1 always, on days 2 to 6
+          when 4 or fewer are left).
+        </li>
+        <li>
+          When no group is left, you have no shakes and a shake could help,
+          you can watch an optional video for a free shake, up to twice a day
+          by your device's date.
+        </li>
+        <li>
+          When no group is left, nothing you hold can help and no video is left
+          to watch, the day ends by itself. While you still hold items or a
+          video is offered, you can use them, or end the day with END THE DAY.
+        </li>
+      </ul>
+
+      <h2 id="stars">4. Stars</h2>
+      <ul>
+        <li>
+          A day is cleared only when its box is empty. A box with goods left in
+          it earns no stars: the day is not cleared, and it can be played
+          again.
+        </li>
+        <li>
+          Each box has a par: the number of taps in the game's own way of
+          emptying it. Your taps are the groups you sell by tapping. Shakes,
+          stock and wild cards are not taps.
+        </li>
+        <li>
+          3 stars: up to par plus 4 taps, or par plus 40% of par (rounded up)
+          when that is more. 2 stars: up to par plus 8, or par plus 90% of par
+          (rounded up) when that is more. 1 star: any other emptied box. On day
+          1, an emptied box always earns 3 stars.
+        </li>
+        <li>
+          Each day keeps your best stars. Stars also pay coins (section 5).
+        </li>
+      </ul>
+
+      <h2 id="coins">5. Coins</h2>
+      <ul>
+        <li>
+          Every finished day pays coins, cleared or not, first time or
+          replayed: 1 coin for every ¥200 of goods sold (rounded down), plus 10
+          coins for each star.
+        </li>
+        <li>
+          Pay grows with prices: 5% of that more for each day after day 1,
+          rounded down. It goes by the day you play, so replaying an early day
+          pays what that day pays. For example, selling ¥16,000 with 3 stars
+          pays 110 coins on day 1 and 170 coins on day 12.
+        </li>
+        <li>
+          Sales are counted in game yen, not real money. Each good sells for:
+          Green tea ¥150, Cup noodles ¥220, Milk ¥180. Kinds that join later
+          have their own prices.
+        </li>
+        <li>
+          Coins also come from a finished store's reward (section 9) and from
+          coin packs (section 11).
+        </li>
+        <li>Coins pay for items in the shop and for games at the truck arcade.</li>
+      </ul>
+
+      <h2 id="items">6. Items</h2>
+      <ul>
+        <li>
+          <strong>Shake:</strong> mixes up the goods in the box. It can be used
+          at any time during a day, and looks for a mix that leaves the box
+          possible to empty.
+        </li>
+        <li>
+          <strong>Stock</strong>, one for each kind of good: can be used only
+          when no group is left. It sells one good of its kind on its own.
+        </li>
+        <li>
+          <strong>Wild card:</strong> works as a shake while groups are left,
+          and as stock of any kind once none are.
+        </li>
+        <li>
+          Items are kept until used. They can be bought before a box is opened,
+          never during play.
+        </li>
+      </ul>
+
+      <h2 id="shifts">7. Shifts</h2>
+      <ul>
+        <li>
+          You can hold up to 6 shifts. Opening a day's box uses 1. Leaving the
+          day's card before opening the box uses none.
+        </li>
+        <li>While you have fewer than 6, one shift comes back every 20 minutes.</li>
+        <li>
+          You can watch an optional video for 3 shifts (never more than 6 in
+          all), up to twice a day by your device's date. You can also buy a
+          refill, or wait.
+        </li>
+        <li>Truck arcade games cost coins, not shifts.</li>
+      </ul>
+
+      <h2 id="shop">8. The shop</h2>
+      <ul>
+        <li>
+          The shop opens once you reach day 6. It opens from the coin purse in
+          the store, or from the day's card before the box is opened.
+        </li>
+        <li>
+          Tap items to put them in the basket, then Pay pays for the basket with
+          coins. The basket cannot hold more than your coins pay for.
+        </li>
+        <li>
+          Prices follow the furthest day you have reached. On day 1, stock costs
+          100 coins and a shake 130 coins. Each day adds 5% of that, rounded to
+          the nearest 5.
+        </li>
+      </ul>
+      <div class="wrap">
+        <table>
+          <tr><th>Day reached</th><th class="n">Stock</th><th class="n">Shake</th></tr>
+          <tr><td>6</td><td class="n">125</td><td class="n">165</td></tr>
+          <tr><td>12</td><td class="n">155</td><td class="n">200</td></tr>
+        </table>
+      </div>
+      <p>
+        Prices keep rising the same way on every day after these. The shop
+        always shows the price before you buy.
+      </p>
+      <p>The shop's Charge screen sells coins and more for real money (section 11).</p>
+
+      <h2 id="truck">9. The truck</h2>
+      <p>
+        The truck comes after day 1 with a present, every Sunday with the
+        week's bundle and a free crate, and from day 6 it parks by the store
+        every day with its arcade.
+      </p>
+
+      <h3>The welcome present</h3>
+      <p>
+        After day 1, once: 3 shakes, and 3 stock of each kind of good met so
+        far.
+      </p>
+
+      <h3>The weekly bundle</h3>
+      <ul>
+        <li>
+          Every Sunday from midnight, by your device's clock, the truck brings a
+          bundle: 1 shake, and 1 stock of each kind of good met so far. The
+          first comes the Sunday after the welcome present.
+        </li>
+        <li>
+          It waits until you open it. Bundles do not pile up: one left unopened
+          is replaced by the next week's.
+        </li>
+      </ul>
+
+      <h3>The truck arcade, from day 6</h3>
+      <div class="wrap">
+        <table>
+          <tr><th>Game</th><th class="n">Opens on day</th><th class="n">First price</th></tr>
+          <tr><td>Register</td><td class="n">6</td><td class="n">100</td></tr>
+        </table>
+      </div>
+      <p>
+        More games join the arcade as you play. Before you play one, the
+        arcade shows its price, its prizes and what each star needs.
+      </p>
+      <p>What each star needs:</p>
+      <div class="wrap">
+        <table>
+          <tr><th>Game, and what counts</th><th class="n">★</th><th class="n">★★</th><th class="n">★★★</th></tr>
+          <tr><td>Register<br /><span class="small">right calls in a 30-second shift</span></td><td class="n">5</td><td class="n">9</td><td class="n">13</td></tr>
+        </table>
+      </div>
+      <ul>
+        <li>
+          Before each go, a card shows how the game is played. The price is paid
+          when you press START, so going back costs nothing.
+        </li>
+        <li>
+          A go ends at the first mistake, such as a wrong call at the register.
+        </li>
+        <li>
+          Every game costs the same: 100 coins on day 6, and 5% of that more
+          for each day reached since, rounded to the nearest 5. A game that joins
+          later costs what the others do that day. The arcade shows the price
+          before you play.
+        </li>
+      </ul>
+      <div class="wrap">
+        <table>
+          <tr><th>Day reached</th><th class="n">Register</th></tr>
+          <tr><td>6</td><td class="n">100</td></tr>
+          <tr><td>12</td><td class="n">130</td></tr>
+        </table>
+      </div>
+      <ul>
+        <li>
+          Prizes: no star, nothing. 1 star, one random item (section 10). 2
+          stars, one item you choose: a shake, or stock of a kind met so far. 3
+          stars, a wild card.
+        </li>
+      </ul>
+
+      <h3>The free crate</h3>
+      <ul>
+        <li>
+          Every Sunday from midnight, by your device's clock, the truck brings a
+          free crate. The first comes the Sunday after the welcome present. It
+          waits until you take it, and crates do not pile up.
+        </li>
+        <li>
+          Tap the crate to stack it in the Stockroom game, for free. However it
+          goes, you get one random stock (section 10). A free crate never gives
+          a wild card.
+        </li>
+      </ul>
+
+      <h3>A finished store's reward</h3>
+      <ul>
+        <li>
+          When a store is finished and the next one is ready, the truck brings
+          a reward crate: coins and one wild card. The coins start at 150 for
+          the first store and 50 more for each store after it, then grow with
+          prices to the store's last day (5% of that more for each day after
+          day 1, rounded to 5 coins). The first store's crate holds 235 coins.
+          Opening the crate takes you on to the next store.
+        </li>
+        <li>If you leave before opening it, the crate waits for you.</li>
+      </ul>
+
+      <h2 id="odds">10. Chances of random rewards</h2>
+      <p>
+        Two rewards are drawn at random, and every possible item in them is
+        equally likely. “Kinds met” means the kinds of goods in the furthest
+        store you have reached.
+      </p>
+      <ul>
+        <li>Truck arcade, 1 star: one item out of a shake and stock of each kind met.</li>
+        <li>Free crate: stock of one kind met.</li>
+      </ul>
+      <p>The chance of each single item, with N kinds met:</p>
+      <ul>
+        <li>Truck arcade, 1 star: 1 in N + 1.</li>
+        <li>Free crate: 1 in N.</li>
+      </ul>
+      <p>
+        In the first store you meet 3 kinds: each item is 1 in 4 (25%) at the
+        arcade, and each stock 1 in 3 (about 33.3%) in a free crate.
+      </p>
+      <ul>
+        <li>
+          Nothing bought with real money gives a random item. Every purchase
+          gives exactly what it says.
+        </li>
+        <li>
+          The stars from an arcade game depend only on how you play. Chance
+          decides only which item a 1-star result gives.
+        </li>
+      </ul>
+
+      <h2 id="purchases">11. Buying with real money</h2>
+      <p>
+        Purchases are optional and go through Google Play, which shows the
+        price in your currency before you pay and takes the payment.
+      </p>
+      <div class="wrap">
+        <table>
+          <tr><th>Item</th><th>What it gives</th><th>Can be bought</th></tr>
+          <tr><td>Small coin pack</td><td>500 coins on day 1 (grows, see below)</td><td>any number of times</td></tr>
+          <tr><td>Medium coin pack</td><td>1,200 coins on day 1 (grows)</td><td>any number of times</td></tr>
+          <tr><td>Large coin pack</td><td>3,000 coins on day 1 (grows)</td><td>any number of times</td></tr>
+          <tr><td>Starter bundle</td><td>1,000 coins on day 1 (grows), 3 shakes, and 3 stock of every kind of goods</td><td>once per player</td></tr>
+          <tr><td>Refill shifts</td><td>shifts back up to 6</td><td>any number of times</td></tr>
+          <!-- off for now (2026-11-13, src/objects/ads.ts): <tr><td>No ads</td><td>no banner or full-screen ads</td><td>once</td></tr> -->
+        </table>
+      </div>
+      <ul>
+        <li>
+          The coins in packs and in the starter bundle grow with prices: 5% of
+          the day 1 amount more for each day after day 1, by the furthest day
+          you have reached, rounded to 5 coins. On day 6 the packs give 625,
+          1,500 and 3,750 coins, and the starter bundle 1,250. The shop shows
+          the amount before you buy.
+        </li>
+        <li>A payment that is still pending arrives once it is paid.</li>
+        <li>
+          Refunds follow Google Play's refund policies:
+          <a href="https://support.google.com/googleplay/answer/2479637"
+            >support.google.com/googleplay/answer/2479637</a
+          >.
+        </li>
+        <!-- off for now (src/objects/ads.ts):
+        <li>
+          No ads is kept by Google Play. It comes back when you reinstall the
+          app on the same Google account.
+        </li>
+        -->
+        <li>
+          The starter bundle is offered once on your device. Once you have it,
+          the shop shows it as owned.
+        </li>
+        <li>
+          Your progress, coins and items, bought or earned, are saved only on
+          your device. Uninstalling the app or clearing its data deletes them,
+          and they cannot be restored or moved to another device.
+        </li>
+      </ul>
+
+      <h2 id="ads">12. Ads</h2>
+      <ul>
+        <li>
+          The only ads are videos, and they play only when you choose to watch
+          one: for 3 shifts, or for a free shake when a box is stuck. There are
+          no banner ads and no full-screen ads.
+        </li>
+        <!-- Off for now (2026-11-13, src/objects/ads.ts). With ads back on, these replace the line above:
+        <li>Banner ads show during the truck arcade games.</li>
+        <li>
+          A full-screen ad may show when you leave a day's receipt, after you
+          have seen its stars and coins: once every 3 to 5 boxes, cleared or
+          not. We can change those numbers from our server, but never to fewer
+          than 2 boxes. There are none until you reach day 6 (the game tells
+          you when they start, as the shop opens), none during play, none on the day that
+          finishes a store, none in the truck arcade, and none when you have
+          run out of shifts.
+        </li>
+        <li>
+          Videos play only when you choose to watch one: for 3 shifts, or for a
+          free shake when a box is stuck. Watching one also starts the count to
+          the next full-screen ad over.
+        </li>
+        <li>
+          No ads removes banner and full-screen ads. Optional videos stay
+          available.
+        </li>
+        -->
+      </ul>
+
+      <h2 id="notes">13. Good to know</h2>
+      <ul>
+        <li>
+          Coins and items exist only in the game. They have no cash value, and
+          cannot be exchanged for money or anything outside the game, sold or
+          transferred.
+        </li>
+        <li>
+          The weekly gifts, the day's videos and shifts coming back go by our
+          server's clock when you are online, not by the phone's clock. Setting
+          the phone's clock back brings nothing new until real time catches up,
+          and while you are offline the Sunday gifts wait until the date can be
+          checked.
+        </li>
+        <li>
+          The game needs no account and no sign-in. What the app sends and keeps
+          is explained in the <a href="privacy-policy.html">privacy policy</a>.
+        </li>
+        <li>
+          Prices, rewards, chances and targets may change in updates. This page
+          always shows the current ones.
+        </li>
+      </ul>
+
+      <h2 id="contact">Contact</h2>
+      <p>
+        Questions about these rules:
+        <a href="mailto:letomo_support@letomo.app">letomo_support@letomo.app</a>
+      </p>
+
+      <hr />
+
+      <h1 id="ja" lang="ja">コンビニラッシュ ゲームルール</h1>
+      <p class="date" lang="ja">施行日：2026年11月13日</p>
+
+      <div lang="ja">
+        <p>
+          コンビニラッシュ（以下「本アプリ」）は LeTomo（以下「当方」）が制作したゲームです。本ページでは、遊び方、日とお店、星とコインの役割、各アイテムの効果、購入できるものとその内容、ランダムな報酬の確率を説明します。数値は現在のバージョンのものです。アップデートで変わる場合は、新しい日付とともに本ページを更新します。
+        </p>
+
+        <h2>1. ゲームについて</h2>
+        <p>
+          コンビニを経営するゲームです。毎日、届いた箱を開けて中の商品を売ります。1日をクリアするたびに、お店に新しいものがひとつ増えます。お店が完成すると次のお店が開き、遊ぶほど新しいお店が増えていきます。
+        </p>
+
+        <h2>2. 日とお店</h2>
+        <p>最初のお店は「町のお店」で、1〜12日目です。完成すると次のお店が開き、遊ぶほど新しいお店が増えていきます。まだ開いていないお店はロックされていて、何日目に開くかがゲーム内に表示されます。</p>
+        <ul>
+          <li>日はひとつずつ開きます。いちばん新しい日をクリアすると次の日が開き、その日のぶんお店が組み上がります。</li>
+          <li>箱の中身は端末ごとに異なり、同じ端末では同じ日を何度遊んでも同じ箱です。商品の種類と落ちる向きは、どのプレイヤーでも同じです。</li>
+          <li>クリアした日は、お店の壁のカレンダーからもう一度遊べます。星を増やすことができます。</li>
+        </ul>
+
+        <h2>3. 箱</h2>
+        <ul>
+          <li>最初のお店の商品は、緑茶、カップめん、牛乳の3種類です。先のお店では、新しい種類の商品が加わります。</li>
+          <li>同じ種類の商品が上下左右にとなり合って2つ以上つながっているところをタップすると、そのまとまりが売れます（ななめはつながりません）。1つだけの商品はタップでは売れません。</li>
+          <li>空いたところに商品がつめられ、各列のうしろで待っている商品が入ってきます。各列で待つ数は、1〜6日目は1つ、7〜12日目は2つで、先のお店ではさらに増えます。</li>
+          <li>商品はふつう下に落ちます。6日目からは、上・左・右に落ちる日もあります。向きは箱を開ける前に、その日のカードに表示されます。</li>
+          <li>どの箱も空にできるように詰められています。1〜6日目はやさしく詰められていて、行きづまったときは助けがあります。無料で箱をシェイクし（1日目は何度でも、2〜6日目は2回まで）、そのあと残りの商品が自動で売れます（1日目はいつでも、2〜6日目は残りが4つ以下のとき）。</li>
+          <li>つながりがなくなり、シェイクを持っていなくて、シェイクで助けられるときは、任意の動画を見ると無料でシェイクできます。端末の日付で1日2回までです。</li>
+          <li>つながりがなくなり、持っているもので助けられず、見られる動画もないときは、その日は自動で終わります。アイテムが残っているときや動画が表示されているときは、それを使うか、「今日はここまで」で終えることができます。</li>
+        </ul>
+
+        <h2>4. 星</h2>
+        <ul>
+          <li>箱が空になったときだけ、その日はクリアです。商品が残った箱は星なしで、クリアにはならず、もう一度遊べます。</li>
+          <li>箱にはそれぞれ「パー」があります。ゲーム自身がその箱を空にした手順のタップ数です。あなたのタップ数は、タップで売ったまとまりの数です。シェイク・在庫・ワイルドカードはタップに数えません。</li>
+          <li>星3：パー＋4タップまで（パーの40%を切り上げた数が4より大きいときは、パー＋その数まで）。星2：パー＋8まで（パーの90%を切り上げた数が8より大きいときは、パー＋その数まで）。星1：それ以外で箱を空にしたとき。1日目は、箱を空にすればいつでも星3です。</li>
+          <li>各日の星は、いちばん良い記録が残ります。星はコインにもなります（第5項）。</li>
+        </ul>
+
+        <h2>5. コイン</h2>
+        <ul>
+          <li>1日を終えるたびに、クリアしたかどうか、初めてかどうかに関係なくコインがもらえます。売った商品¥200ごとに1コイン（端数切り捨て）と、星1つにつき10コインです。</li>
+          <li>もらえるコインは値段と一緒に増えます。1日目より後は1日ごとにその5%ずつ多くなります（端数切り捨て）。遊んだ日で決まるので、前の日を遊び直すとその日の分がもらえます。たとえば¥16,000売って星3つなら、1日目は110コイン、12日目は170コインです。</li>
+          <li>売上はゲーム内の円で、実際のお金ではありません。各商品の売値は、緑茶¥150、カップめん¥220、牛乳¥180です。あとから加わる商品にも、それぞれの売値があります。</li>
+          <li>お店完成のごほうび（第9項）とコインパック（第11項）でもコインが手に入ります。</li>
+          <li>コインはショップのアイテムと、トラックゲーセンのゲームに使えます。</li>
+        </ul>
+
+        <h2>6. アイテム</h2>
+        <ul>
+          <li><strong>箱をシェイク：</strong>箱の中の商品を混ぜます。その日の間ならいつでも使え、箱を空にできる混ぜ方を探します。</li>
+          <li><strong>在庫</strong>（商品の種類ごと）：つながりがなくなったときだけ使えます。その種類の商品を1つ単独で売ります。</li>
+          <li><strong>ワイルドカード：</strong>つながりが残っている間はシェイクとして、なくなってからはどの種類の在庫としても使えます。</li>
+          <li>アイテムは使うまで残ります。買えるのは箱を開ける前だけで、プレイ中は買えません。</li>
+        </ul>
+
+        <h2>7. シフト</h2>
+        <ul>
+          <li>シフトは最大6つまで持てます。その日の箱を開けると1つ使います。箱を開ける前にカードから戻れば使いません。</li>
+          <li>6つ未満のときは、20分ごとに1つ回復します。</li>
+          <li>任意の動画を見ると3つ回復します（合計6つまで）。動画は端末の日付で1日2回までです。回復を購入するか、待つこともできます。</li>
+          <li>トラックゲーセンのゲームはコインを使い、シフトは使いません。</li>
+        </ul>
+
+        <h2>8. ショップ</h2>
+        <ul>
+          <li>6日目に到達するとショップが開きます。お店のコイン表示、または箱を開ける前のその日のカードから開けます。</li>
+          <li>アイテムをタップしてかごに入れ、「お会計」でまとめてコインで支払います。手持ちのコインを超えてかごに入れることはできません。</li>
+          <li>値段は、到達したいちばん先の日で決まります。1日目は在庫100コイン、シェイク130コインで、1日ごとにその5%ずつ上がります（5コイン単位に丸めます）。</li>
+        </ul>
+        <div class="wrap">
+          <table>
+            <tr><th>到達した日</th><th class="n">在庫</th><th class="n">シェイク</th></tr>
+            <tr><td>6</td><td class="n">125</td><td class="n">165</td></tr>
+            <tr><td>12</td><td class="n">155</td><td class="n">200</td></tr>
+          </table>
+        </div>
+        <p>それ以降の日も、同じように上がります。値段は、買う前にショップに表示されます。</p>
+        <p>ショップの「チャージ」画面では、コインなどを実際のお金で購入できます（第11項）。</p>
+
+        <h2>9. トラック</h2>
+        <p>トラックは1日目のあとにプレゼントを、毎週日曜日にはその週のセットと無料の箱を届け、6日目からは毎日ゲーセンとしてお店のそばにとまります。</p>
+
+        <h3>ようこそプレゼント</h3>
+        <p>1日目のあとに1回だけ：シェイク3つと、それまでに出会った商品の在庫を各3つ。</p>
+
+        <h3>毎週のセット</h3>
+        <ul>
+          <li>毎週日曜日の0時から（端末の時計で）、トラックがセットを届けます。中身はシェイク1つと、それまでに出会った商品の在庫を各1つです。最初のセットは、ようこそプレゼントのあとの日曜日に届きます。</li>
+          <li>開けるまで待っています。セットはたまりません。開けないままだと、次の週のセットに置きかわります。</li>
+        </ul>
+
+        <h3>トラックゲーセン（6日目から）</h3>
+        <div class="wrap">
+          <table>
+            <tr><th>ゲーム</th><th class="n">開く日</th><th class="n">最初の値段</th></tr>
+            <tr><td>レジ</td><td class="n">6</td><td class="n">100</td></tr>
+          </table>
+        </div>
+        <p>遊ぶほど、ゲーセンに新しいゲームが増えます。遊ぶ前に、値段と景品、星ごとに必要な数がゲーセンに表示されます。</p>
+        <p>星ごとに必要な数：</p>
+        <div class="wrap">
+          <table>
+            <tr><th>ゲームと数えるもの</th><th class="n">★</th><th class="n">★★</th><th class="n">★★★</th></tr>
+            <tr><td>レジ<br /><span class="small">30秒のシフトでの正解数</span></td><td class="n">5</td><td class="n">9</td><td class="n">13</td></tr>
+          </table>
+        </div>
+        <ul>
+          <li>始める前に、遊びかたのカードが出ます。料金はスタートを押したときに支払うので、戻っても料金はかかりません。</li>
+          <li>1回のプレイは、最初のミスで終わります（レジでの間違いなど）。</li>
+          <li>1回の値段はどのゲームも同じです。6日目は100コインで、そこから到達した日1日ごとにその5%ずつ上がります（5コイン単位に丸めます）。あとから加わるゲームも、その日のほかのゲームと同じ値段です。遊ぶ前に、ゲーセンに値段が表示されます。</li>
+        </ul>
+        <div class="wrap">
+          <table>
+            <tr><th>到達した日</th><th class="n">レジ</th></tr>
+            <tr><td>6</td><td class="n">100</td></tr>
+            <tr><td>12</td><td class="n">130</td></tr>
+          </table>
+        </div>
+        <ul>
+          <li>景品：星なしは景品なし。星1はランダムなアイテム1つ（第10項）。星2は好きなアイテム1つ（シェイク、またはそれまでに出会った種類の在庫）。星3はワイルドカード。</li>
+        </ul>
+
+        <h3>無料の箱</h3>
+        <ul>
+          <li>毎週日曜日の0時から（端末の時計で）、トラックが無料の箱を届けます。最初の箱は、ようこそプレゼントのあとの日曜日に届きます。受け取るまで待っていて、たまることはありません。</li>
+          <li>箱をタップすると、倉庫のゲームで無料で積み上げます。結果にかかわらず、ランダムな在庫を1つもらえます（第10項）。無料の箱からワイルドカードは出ません。</li>
+        </ul>
+
+        <h3>お店完成のごほうび</h3>
+        <ul>
+          <li>お店が完成して次のお店の準備ができると、トラックがごほうびの箱を届けます。中身はコインとワイルドカード1枚です。コインは最初のお店で150、次のお店からひとつごとに50ずつ増え、さらにそのお店の最後の日まで値段と一緒に増えます（1日目より後は1日ごとに5%ずつ、5コイン単位に丸めます）。最初のお店の箱には235コインが入っています。箱を開けると次のお店へ進みます。</li>
+          <li>開ける前にゲームを離れても、箱は待っています。</li>
+        </ul>
+
+        <h2>10. ランダムな報酬の確率</h2>
+        <p>
+          ランダムに決まる報酬は2つで、出る可能性のあるアイテムはどれも同じ確率です。「出会った種類」とは、到達したいちばん先のお店に並ぶ商品の種類のことです。
+        </p>
+        <ul>
+          <li>トラックゲーセン星1：シェイクと、出会った種類それぞれの在庫の中から1つ。</li>
+          <li>無料の箱：出会った種類の在庫1つ。</li>
+        </ul>
+        <p>出会った種類がN種類のとき、アイテム1つごとの確率は次のとおりです。</p>
+        <ul>
+          <li>トラックゲーセン星1：（N+1）分の1</li>
+          <li>無料の箱：N分の1</li>
+        </ul>
+        <p>最初のお店で出会うのは3種類なので、アイテム1つごとの確率は、ゲーセンでは4分の1（25%）、無料の箱では3分の1（約33.3%）です。</p>
+        <ul>
+          <li>実際のお金で購入したものから、ランダムなアイテムが出ることはありません。どの購入も、表示どおりの内容です。</li>
+          <li>ゲーセンでもらえる星の数は、プレイの結果だけで決まります。運で決まるのは、星1のときにどのアイテムが出るかだけです。</li>
+        </ul>
+
+        <h2>11. 実際のお金での購入</h2>
+        <p>購入は任意で、Google Playを通して行います。Google Playが支払いの前に現地通貨で価格を表示し、支払いを処理します。</p>
+        <div class="wrap">
+          <table>
+            <tr><th>アイテム</th><th>内容</th><th>購入</th></tr>
+            <tr><td>コインパック（小）</td><td>1日目は500コイン（増えます。下記参照）</td><td>何度でも</td></tr>
+            <tr><td>コインパック（中）</td><td>1日目は1,200コイン（増えます）</td><td>何度でも</td></tr>
+            <tr><td>コインパック（大）</td><td>1日目は3,000コイン（増えます）</td><td>何度でも</td></tr>
+            <tr><td>スターターセット</td><td>1日目は1,000コイン（増えます）、シェイク3つ、すべての種類の在庫を各3つ</td><td>おひとり様1回</td></tr>
+            <tr><td>シフトを満タンに</td><td>シフトを6つまで回復</td><td>何度でも</td></tr>
+            <!-- off for now (src/objects/ads.ts): <tr><td>広告なし</td><td>バナー広告と全画面広告がなくなります</td><td>1回</td></tr> -->
+          </table>
+        </div>
+        <ul>
+          <li>コインパックとスターターセットのコインは、値段と一緒に増えます。到達したいちばん先の日で決まり、1日目より後は1日ごとに1日目の量の5%ずつ多くなります（5コイン単位に丸めます）。6日目なら、パックは625、1,500、3,750コイン、スターターセットは1,250コインです。購入前にショップに量が表示されます。</li>
+          <li>支払いが保留中の場合は、支払いが完了すると届きます。</li>
+          <li>
+            返金はGoogle Playの返金ポリシーに従います：
+            <a href="https://support.google.com/googleplay/answer/2479637?hl=ja"
+              >support.google.com/googleplay/answer/2479637</a
+            >
+          </li>
+          <!-- off for now (src/objects/ads.ts): <li>広告なしはGoogle Playに記録され、同じGoogleアカウントでアプリを入れ直すと戻ります。</li> -->
+          <li>スターターセットは、この端末で1回だけ購入できます。購入後、ショップでは購入済みと表示されます。</li>
+          <li>進み具合・コイン・アイテム（購入したものも獲得したものも）は、端末の中だけに保存されます。アプリを削除したり、データを消去したりすると消え、復元や他の端末への移動はできません。</li>
+        </ul>
+
+        <h2>12. 広告</h2>
+        <ul>
+          <li>広告は動画だけで、見ることを選んだときだけ再生されます（シフト3つ、または箱で行きづまったときの無料シェイク）。バナー広告と全画面広告はありません。</li>
+          <!-- Off for now (2026-11-13, src/objects/ads.ts). With ads back on, these replace the line above:
+          <li>トラックゲーセンのゲーム中は、バナー広告が表示されます。</li>
+          <li>その日のレシートで星とコインを見たあと、レシートを離れるときに全画面広告が表示されることがあります。クリアしたかどうかにかかわらず、箱3〜5回に1回です。この回数は当方のサーバーから変更することがありますが、2回より少なくはなりません。6日目に到達するまで（始まるときは、ショップが開くときにゲーム内でお知らせします）、プレイ中、お店が完成した日、トラックゲーセン、シフトがなくなったときには表示されません。</li>
+          <li>動画は、見ることを選んだときだけ再生されます（シフト3つ、または箱で行きづまったときの無料シェイク）。動画を見ると、次の全画面広告までの回数が最初から数え直しになります。</li>
+          <li>「広告なし」で、バナー広告と全画面広告はなくなります。任意の動画はそのまま利用できます。</li>
+          -->
+        </ul>
+
+        <h2>13. ご注意</h2>
+        <ul>
+          <li>コインとアイテムはゲームの中だけのものです。換金価値はなく、お金やゲーム外のものとの交換、売買、譲渡はできません。</li>
+          <li>週ごとの贈り物、1日の動画、シフトの回復は、オンラインのときは端末の時計ではなく当方のサーバーの時計で決まります。端末の時計を戻しても、実際の時間が追いつくまで新しいものは届きません。オフラインのあいだ、日曜日の贈り物は日付を確認できるまで待ちます。</li>
+          <li>アカウントやサインインは不要です。本アプリが送信・保存する情報については、<a href="privacy-policy.html">プライバシーポリシー</a>をご覧ください。</li>
+          <li>値段・報酬・確率・目標は、アップデートで変わることがあります。本ページには常に現在の内容を掲載します。</li>
+        </ul>
+
+        <h2>お問い合わせ</h2>
+        <p>
+          このルールについてのご質問：
+          <a href="mailto:letomo_support@letomo.app">letomo_support@letomo.app</a>
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
